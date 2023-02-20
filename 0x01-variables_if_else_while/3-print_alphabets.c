@@ -8,12 +8,12 @@
 
 int main(void)
 {
-	int lw = 'a';
+	int l = 'a';
 	int up = 'A';
-	while (lw <= 'z')
+	while (l <= 'z')
 	{
-		putchar(1w);
-		lw += 1;
+		putchar(1);
+		l += 1;
 	}
 	while (up <= 'Z')
 	{
