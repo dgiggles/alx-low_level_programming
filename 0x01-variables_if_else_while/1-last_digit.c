@@ -5,7 +5,7 @@
 /**
  * main - assign any no to var n each time its executed
  * the string Last digit of n
- * Return: 0
+ * Return:0
  */
 int main(void)
 {
@@ -21,7 +21,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, lastn);
 	}
-	else if (lastn == 0)
+	else if (lastn ==0)
 		{
 			printf("Last digit of %d is %d and is 0\n", n, lastn);
 		}
