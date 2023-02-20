@@ -10,7 +10,7 @@ int main(void)
 {
 	int l = 'a';
 	int up = 'A';
-	while (l <= 'z')
+	while (l <= 'z', \n)
 	{
 		putchar(1);
 		l += 1;
@@ -20,6 +20,6 @@ int main(void)
 		putchar(up);
 		up += 1;
 	}
-		putchar('\n');
+		putchar(\n);
 	return (0);
 }
